@@ -1,7 +1,10 @@
 .emailList{
     flex: 1;
     overflow: scroll;
-    justify-content: space-around;
+}
+
+.emailList::-webkit-scrollbar {
+    display:none;
 }
 
 .emailList__settings{
@@ -13,6 +16,10 @@
     background-color: white;
     z-index: 999;
     padding-right: 10px;
+}
+
+.emailList__list {
+    padding-right: 20%;
 }
 
 .emailList__sections{
